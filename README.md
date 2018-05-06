@@ -31,16 +31,16 @@
 配合各种plugin，比如Android-Gradle-Plugin、Java-Plugin、Maven-Plugin等。
 
 - 核心
-1. Project
-2. Task
+  1. Project
+  2. Task
 
 # Gradle Plugin开发
 - 创建方法 [Packaging a plugin][1]
-1. 内部创建
+  1. 内部创建
    - Build script
    - buildSrc project
-2. 外部创建
- + [自定义Plugin][2]
+  2. 外部创建
+   - [自定义Plugin][2]
 
 
 - plugin不限于使用groovy开发
