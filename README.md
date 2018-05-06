@@ -35,8 +35,16 @@
 2. Task
 
 #Gradle Plugin开发
-- 创建方法 [自定义Plugin][1]
+- 创建方法 [Packaging a plugin][1]
+1. 内部创建
+ + Build script
+ + buildSrc project
+2. 外部创建
+ + [自定义Plugin][2]
 
 
-  [1]: http://smallsoho.com/android/2017/03/18/Android%E8%87%AA%E5%AE%9A%E4%B9%89Gradle%E6%8F%92%E4%BB%B6/
 - plugin不限于使用groovy开发
+
+
+  [1]: https://docs.gradle.org/current/userguide/custom_plugins.html#sec:packaging_a_plugin
+  [2]: http://smallsoho.com/android/2017/03/18/Android%E8%87%AA%E5%AE%9A%E4%B9%89Gradle%E6%8F%92%E4%BB%B6/
