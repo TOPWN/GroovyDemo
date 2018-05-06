@@ -37,10 +37,10 @@
 # Gradle Plugin开发
 - 创建方法 [Packaging a plugin][1]
   1. 内部创建
-   - Build script
-   - buildSrc project
+     - Build script
+     - buildSrc project
   2. 外部创建
-   - [自定义Plugin][2]
+     - [自定义Plugin][2]
 
 
 - plugin不限于使用groovy开发
