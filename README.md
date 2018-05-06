@@ -34,7 +34,7 @@
 1. Project
 2. Task
 
-#Gradle Plugin开发
+# Gradle Plugin开发
 - 创建方法 [Packaging a plugin][1]
 1. 内部创建
  + Build script
