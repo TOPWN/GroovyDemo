@@ -16,7 +16,7 @@ version='1.0.0'
 uploadArchives {
     repositories {
         mavenDeployer {
-            repository(url: uri('../repo'))
+            repository(url: uri("${project.rootDir}/repo"))
         }
     }
 }
