@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin:'testplugin'
 android {
     compileSdkVersion 26
     defaultConfig {
