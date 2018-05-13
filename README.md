@@ -48,4 +48,4 @@
 
 
   [1]: https://docs.gradle.org/current/userguide/custom_plugins.html#sec:packaging_a_plugin
-  [2]: http://smallsoho.com/android/2017/03/18/Android%E8%87%AA%E5%AE%9A%E4%B9%89Gradle%E6%8F%92%E4%BB%B6/
+  [2]: https://blog.csdn.net/sbsujjbcy/article/details/50782830
