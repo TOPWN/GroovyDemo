@@ -29,7 +29,7 @@
 - 什么是Gradle
   >基于`Groovy`和`内部DSL`来实现的用于构建项目的框架（仅仅是一个框架）。
 - 使用  
-  配合各种plugin，比如Android-Gradle-Plugin、Java-Plugin、Maven-Plugin等。
+  > 配合各种plugin，比如Android-Gradle-Plugin、Java-Plugin、Maven-Plugin等。
 
 - 核心
   - Project
