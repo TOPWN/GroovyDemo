@@ -35,6 +35,16 @@
   - Project
   - Task
 
+- 生命周期
+  - 初始化
+    >读取setting.gradle中的内容，导入工程，创建project实例。
+
+  - 配置
+    >执行各个工程的build.gradle脚本，配置project及其tasks。
+
+  - 运行
+    > 执行task
+
 # Gradle Plugin开发
 - 创建方法 [Packaging a plugin][1]
   - 内部创建
