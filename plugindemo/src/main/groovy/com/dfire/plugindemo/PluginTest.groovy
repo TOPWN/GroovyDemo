@@ -31,6 +31,7 @@ public class PluginTest implements Plugin<Project> {
 
         /**
          * 读取配置
+         * @see <a href="https://android.googlesource.com/platform/tools/base/+/gradle_1.0.0/build-system/gradle/src/main/groovy/com/android/build/gradle">Android gradle</a>
          */
         project.extensions.create('androidconfig', AndroidConfig)
         mAndroidConfig = project.androidconfig

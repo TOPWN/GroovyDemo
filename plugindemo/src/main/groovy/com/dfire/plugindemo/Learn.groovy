@@ -1,7 +1,7 @@
 package com.dfire.plugindemo
 
 /**
- * http://groovy-lang.org/single-page-documentation.html
+ * @see <a href="http://groovy-lang.org/single-page-documentation.html">Groovy</a>
  */
 
 //Single quoted string
