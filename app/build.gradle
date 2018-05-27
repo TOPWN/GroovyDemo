@@ -18,6 +18,26 @@ android {
     }
 }
 
+//自定义android配置
+androidconfig {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.example.wangning.groovydemo"
+        minSdkVersion 16
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            debuggable false
+            shrinkResources true
+        }
+        debug {
+            debuggable true
+        }
+    }
+}
+
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'

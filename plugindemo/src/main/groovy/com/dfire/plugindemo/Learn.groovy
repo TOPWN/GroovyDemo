@@ -152,7 +152,7 @@ def testClosure(int a1, String b1, Closure closure) {
 testClosure(4, "test") {
     println "i am in closure"
 }
-
+//可以省略圆括号
 testClosure 4, "hello", {
     println "i am in closure"
 }
