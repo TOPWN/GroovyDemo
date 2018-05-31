@@ -30,7 +30,6 @@ numbers[1] = 0
 assert letters[1] == 0
 //新增值
 numbers << 4
-numbers.each {}
 //类型强转
 def linkedList = [2, 3, 4] as LinkedList
 
