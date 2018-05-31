@@ -101,7 +101,7 @@ def p = new Person()
 p.name
 
 /**
- * Closure(闭包)，不同于JS中的闭包
+ * Closure(闭包)，匿名函数，不同于JS中的闭包
  */
 
 def c0 = { String x, int y ->
@@ -143,12 +143,7 @@ greeting 'Patrick'
 def lst = [11, 12, 13, 14]
 lst.each { println it }//print "11 12 13 14"
 
-//如果函数的最后一个参数是闭包的话，可以省略圆括号
-def testClosure(int a1, String b1, Closure closure) {
-    //do something
-}
-
-//当闭包作为闭包或方法的最后一个参数。可以将闭包从参数圆括号中提取出来接在最后，如果闭包是唯一的一个参数，则闭包或方法参数所在的圆括号也可以省略
+//当闭包作为闭包或方法的最后一个参数。可以将闭包从参数圆括号中提取出来接在最后
 testClosure(4, "test") {
     println "i am in closure"
 }
